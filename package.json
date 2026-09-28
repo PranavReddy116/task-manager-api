@@ -1,9 +1,10 @@
 {
   "name": "task-manager-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A RESTful Task Manager API built with Node.js, Express.js, PostgreSQL, JWT and bcrypt",
   "main": "index.js",
   "scripts": {
+    "start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +12,10 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0"
   }
 }
